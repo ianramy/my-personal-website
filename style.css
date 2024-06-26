@@ -1,0 +1,32 @@
+button {
+    background-color: gray;
+    color: black;
+}
+/* class : all the elements with the same class name will receive this styling */
+#main-header {
+    background-color: black;
+    color: white;
+    font-size: 1.25rem;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#paraIntro {
+    font-size: 1.25rem;
+}
+#skills {
+    font-size: 1.25rem;
+}
+#paraOutro {
+    color: black;
+    font-size: 1.25rem;
+    }
+.NavBar {
+    display: flex;
+}
+.headName {
+    color:brown;
+    font-size: 4rem;
+}
+.Name {
+    color: black;
+    font-size: 4rem;
+}

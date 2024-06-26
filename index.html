@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" data-google-analytics-opt-out="" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Ian Mwagore">
-    <link rel="stylesheet" href="css/style.css"/>
-    <title>Ian Mwagore</title>
+<html lang="en">
+<title>Ian Mwagore</title>
+<link rel="stylesheet" href="style.css"/>
 </head>
   <body>
     <header id="main-header">
@@ -34,5 +32,14 @@
         </section>
     </div>
     <script src="js/script.js"></script>
+    <script src="script.js">
+        document.addEventListener("DOMContentLoaded", function() {
+    const contactButton = document.getElementById("contact-button");
+    contactButton.addEventListener("click", function() {
+        alert("Thank you for your interest! I will get back to you soon.");
+    });
+});
+
+    </script>
   </body>
 </html>
