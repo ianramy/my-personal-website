@@ -3,39 +3,36 @@ body, html {
     padding: 0;
     height: 100%;
   }
-button {
-    background-color: gray;
-    color: black;
-}
+
 /* class : all the elements with the same class name will receive this styling */
 #main-header {
     background-color: black;
     color: white;
-    font-size: 1.25rem;
+    font-size: 4rem;
     font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 #paraIntro {
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 #skills {
     color: orange;
-    font-size: 1.25rem;
+    font-size:1.5rem;
 }
 #paraOutro {
     color: white;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     }
 .NavBar {
     display: flex;
 }
 .headName {
     color:brown;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 .Name {
     color: white;
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 .icon-bar a {
     float: left; /* Float links side by side */
@@ -43,17 +40,17 @@ button {
     width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
     padding: 12px 0; /* Some top and bottom padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 36px; /* Increased font size */
-    background-color: black;
+    color: rgba(255, 255, 255, 0.196); /* White text color */
+    font-size: 25px; /* Increased font size */
+    
   }
   
   .icon-bar a:hover {
-    background-color: green; /* Add a hover color */
+    background-color: rgba(0, 128, 0, 0.404); /* Add a hover color */
   }
   
   .active {
-    background-color: limegreen; /* Add an active/current color */
+    background-color: green; /* Add an active/current color */
   }
   body {
    color: white;
@@ -84,7 +81,7 @@ button {
     text-align: center;
     padding: 6px;
     transition: all 0.3s ease;
-    color: white;
+    color: rgba(255, 255, 255, 0.432);
     font-size: 15px;
   }
   /* Style the social media icons with color, if you want */
@@ -93,26 +90,26 @@ button {
   }
   
   .facebook {
-    background: #3B5998;
+    background: #064ce398;
     color: white;
   }
   
   .twitter {
-    background: #55ACEE;
+    background: #4ba7ec7c;
     color: white;
   }
   
   .google {
-    background: #dd4b39;
+    background: #dd4c3989;
     color: white;
   }
   
   .linkedin {
-    background: #007bb5;
+    background: #007cb5b9;
     color: white;
   }
   
   .youtube {
-    background: #bb0000;
+    background: #bb000084;
     color: white;
   }
