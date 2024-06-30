@@ -2,17 +2,26 @@
 <html lang="en">
 <title>Ian Mwagore</title>
 <link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="icon-bar">
+    <a class="active" href="#"><i class="fa fa-home"></i></a>
+    <a href="#"><i class="fa fa-search"></i></a>
+    <a href="#"><i class="fa fa-envelope"></i></a>
+    <a href="#"><i class="fa fa-globe"></i></a>
+    <a href="#"><i class="fa fa-phone"></i></a>
+  </div>
 </head>
   <body>
-    <header id="main-header">
-        <h2>Welcome to My Personal Website</h2>
+    <header>
     </header>
-    <div>
+    <div class="container">
         <section>
             <h2 class="Name"> 
                 IAN
                 <span class="headName">MWAGORE</span></h2>
-            <p id="paraIntro">Hi! I'm Ian Mwagore, a Software Engineer. Welcome to my personal website where I share a bit about myself and my skills.</p>
+            <p id="paraIntro">
+                Hi! I'm Ian Mwagore, a Software Engineer. Welcome to my personal website. 
+                This is where I will be sharing a bit about myself and my skills.</p>
         </section>
         <section>
             <h2>My Skills</h2>
@@ -23,15 +32,13 @@
                 <li>Project Management</li>
             </il>
         </section>
-
-
+        
         <section class="perspective-questions">
             <h2>Contact Me</h2>
             <p id="paraOutro">Feel free to <a href="mailto:i.mwagore@gmail.com">email me</a> for any inquiries or collaboration.</p>
             <button id="contact-button">Contact</button>
         </section>
     </div>
-    <script src="js/script.js"></script>
     <script src="script.js">
         document.addEventListener("DOMContentLoaded", function() {
     const contactButton = document.getElementById("contact-button");
@@ -41,5 +48,6 @@
 });
 
     </script>
+    
   </body>
 </html>
